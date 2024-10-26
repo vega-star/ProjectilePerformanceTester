@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://bhspx5emw3xc6"]
+
+[ext_resource type="PackedScene" uid="uid://ccuans6waho1s" path="res://projectiles/projectile_spawner.tscn" id="1_t1l21"]
+
+[node name="2DReference" type="Node2D"]
+
+[node name="ProjectileSpawner" parent="." instance=ExtResource("1_t1l21")]

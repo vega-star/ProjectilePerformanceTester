@@ -23,11 +23,16 @@ Info="*res://misc/info.tscn"
 
 folder_colors={
 "res://assets/": "yellow",
-"res://misc/": "purple",
-"res://projectiles/": "red",
+"res://misc/": "orange",
+"res://projectiles/": "teal",
 "res://prototypes/": "blue",
-"res://scripts/": "green"
+"res://scripts/": "green",
+"res://tests/": "purple"
 }
+
+[gui]
+
+fonts/canvas_textures/default_texture_filter=1
 
 [input]
 

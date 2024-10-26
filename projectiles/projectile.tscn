@@ -1,0 +1,23 @@
+[gd_scene load_steps=2 format=3 uid="uid://cmw4m1l5e3tnq"]
+
+[ext_resource type="Script" path="res://scripts/projectile.gd" id="1_v0bjr"]
+
+[node name="Projectile" type="Node2D"]
+script = ExtResource("1_v0bjr")
+
+[node name="ColorRect" type="ColorRect" parent="."]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -3.5
+offset_top = -3.5
+offset_right = 3.5
+offset_bottom = 3.5
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="LifetimeTimer" type="Timer" parent="."]
+process_mode = 1
+autostart = true
